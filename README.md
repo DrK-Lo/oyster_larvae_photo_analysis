@@ -1,6 +1,8 @@
 # oyster_larvae_photo_analysis
 CellProfiler for oyster larvae pictures
 
+This repository contains code used with [CellProfiler](cellprofiler.org) to analyze microscope images of oyster larvae. To get started, download CellProfiler at the link, open the application, and import the pipeline.
+
 
 ## measure_oysters_pipeline.cppipe
 
@@ -8,10 +10,10 @@ This pipeline is tuned to segment out oyster larvae from a green background that
 
 ## runCellProfilerParallel.sh
 
-CellProfiler is optimized to run on a single core when it is being run headless. This script parallelizes running a CellProfiler pipeline on a large list of images. Variables are set at the top of the script and should be modified based on the analysis.
+CellProfiler is optimized to run on a single core when it is being run headless. This script parallelizes running a CellProfiler pipeline on a large list of images. It is intended to be used on the server.  Variables are set at the top of the script and should be modified based on the analysis.
 
 
-Inputs:
+Variables:
 
 	- imageList : a list of the absolute paths of all the images to be analyzed. An easy command for generating this list from a directory of images is included in a comment at the top of the script. 
 		      Just type `head runCellProfilerParallel.sh` and copy the commmand from the output.
