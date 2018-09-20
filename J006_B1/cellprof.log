@@ -1,0 +1,630 @@
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:53 2018: Image # 1, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:53 2018: Image # 1, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:53 2018: Image # 4, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:53 2018: Image # 4, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:53 2018: Image # 3, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+Wed Sep 19 14:55:53 2018: Image # 3, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 5, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 5, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:527: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  np.issubdtype(hdf5_type, int) or
+/home/freeman.k/CellProfiler/cellprofiler/utilities/hdf5_dict.py:529: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  hdf5_type_is_float = np.issubdtype(hdf5_type, float)
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 7, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 7, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 8, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 8, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 2, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 2, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 6, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 6, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 9, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 9, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 11, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 11, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 12, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 12, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 10, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 13, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 10, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 13, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 15, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 18, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 15, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 18, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 16, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 16, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 14, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 14, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 17, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 17, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 19, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 19, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:54 2018: Image # 22, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 22, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 20, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 20, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 21, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 21, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 25, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 25, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 24, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 24, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 23, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 23, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 29, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 29, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 27, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 27, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 30, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 30, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 28, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 28, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Times reported are CPU and Wall-clock times for each module
+Wed Sep 19 14:55:55 2018: Image # 26, module Images # 1: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 26, module Metadata # 2: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:53 2018: Image # 3, module NamesAndTypes # 3: CPU_time = 6.58 secs, Wall_time = 4.10 secs
+Wed Sep 19 14:55:58 2018: Image # 3, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:53 2018: Image # 1, module NamesAndTypes # 3: CPU_time = 6.47 secs, Wall_time = 4.38 secs
+Wed Sep 19 14:55:58 2018: Image # 1, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:53 2018: Image # 4, module NamesAndTypes # 3: CPU_time = 6.35 secs, Wall_time = 4.46 secs
+Wed Sep 19 14:55:58 2018: Image # 4, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 5, module NamesAndTypes # 3: CPU_time = 6.63 secs, Wall_time = 4.39 secs
+Wed Sep 19 14:55:58 2018: Image # 5, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 7, module NamesAndTypes # 3: CPU_time = 6.35 secs, Wall_time = 4.21 secs
+Wed Sep 19 14:55:58 2018: Image # 7, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 6, module NamesAndTypes # 3: CPU_time = 7.20 secs, Wall_time = 4.24 secs
+Wed Sep 19 14:55:58 2018: Image # 6, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 15, module NamesAndTypes # 3: CPU_time = 7.17 secs, Wall_time = 4.12 secs
+Wed Sep 19 14:55:58 2018: Image # 15, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 8, module NamesAndTypes # 3: CPU_time = 6.90 secs, Wall_time = 4.62 secs
+Wed Sep 19 14:55:58 2018: Image # 8, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 9, module NamesAndTypes # 3: CPU_time = 8.25 secs, Wall_time = 4.39 secs
+Wed Sep 19 14:55:58 2018: Image # 9, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 18, module NamesAndTypes # 3: CPU_time = 7.16 secs, Wall_time = 4.32 secs
+Wed Sep 19 14:55:59 2018: Image # 18, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 12, module NamesAndTypes # 3: CPU_time = 6.89 secs, Wall_time = 4.51 secs
+Wed Sep 19 14:55:59 2018: Image # 12, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 2, module NamesAndTypes # 3: CPU_time = 7.64 secs, Wall_time = 5.05 secs
+Wed Sep 19 14:55:59 2018: Image # 2, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 17, module NamesAndTypes # 3: CPU_time = 6.40 secs, Wall_time = 4.57 secs
+Wed Sep 19 14:55:59 2018: Image # 17, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 25, module NamesAndTypes # 3: CPU_time = 6.72 secs, Wall_time = 4.41 secs
+Wed Sep 19 14:55:54 2018: Image # 11, module NamesAndTypes # 3: CPU_time = 8.09 secs, Wall_time = 4.91 secs
+Wed Sep 19 14:55:59 2018: Image # 25, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:59 2018: Image # 11, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 29, module NamesAndTypes # 3: CPU_time = 8.24 secs, Wall_time = 4.26 secs
+Wed Sep 19 14:55:59 2018: Image # 29, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 16, module NamesAndTypes # 3: CPU_time = 6.53 secs, Wall_time = 4.75 secs
+Wed Sep 19 14:55:59 2018: Image # 16, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 19, module NamesAndTypes # 3: CPU_time = 6.69 secs, Wall_time = 4.77 secs
+Wed Sep 19 14:55:59 2018: Image # 19, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 13, module NamesAndTypes # 3: CPU_time = 7.66 secs, Wall_time = 5.04 secs
+Wed Sep 19 14:55:59 2018: Image # 13, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 23, module NamesAndTypes # 3: CPU_time = 6.53 secs, Wall_time = 4.57 secs
+Wed Sep 19 14:55:59 2018: Image # 23, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 22, module NamesAndTypes # 3: CPU_time = 8.84 secs, Wall_time = 4.91 secs
+Wed Sep 19 14:55:59 2018: Image # 22, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 28, module NamesAndTypes # 3: CPU_time = 7.43 secs, Wall_time = 4.78 secs
+Wed Sep 19 14:56:00 2018: Image # 28, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:58 2018: Image # 3, module ColorToGray # 5: CPU_time = 3.49 secs, Wall_time = 2.13 secs
+Wed Sep 19 14:55:54 2018: Image # 10, module NamesAndTypes # 3: CPU_time = 8.18 secs, Wall_time = 5.43 secs
+Wed Sep 19 14:56:00 2018: Image # 10, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 27, module NamesAndTypes # 3: CPU_time = 7.17 secs, Wall_time = 4.87 secs
+Wed Sep 19 14:56:00 2018: Image # 27, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 24, module NamesAndTypes # 3: CPU_time = 9.48 secs, Wall_time = 5.09 secs
+Wed Sep 19 14:56:00 2018: Image # 24, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:54 2018: Image # 14, module NamesAndTypes # 3: CPU_time = 8.05 secs, Wall_time = 5.56 secs
+Wed Sep 19 14:56:00 2018: Image # 14, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 21, module NamesAndTypes # 3: CPU_time = 8.76 secs, Wall_time = 5.34 secs
+Wed Sep 19 14:56:00 2018: Image # 21, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 20, module NamesAndTypes # 3: CPU_time = 8.22 secs, Wall_time = 5.37 secs
+Wed Sep 19 14:56:00 2018: Image # 20, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:55 2018: Image # 30, module NamesAndTypes # 3: CPU_time = 6.62 secs, Wall_time = 5.09 secs
+Wed Sep 19 14:56:00 2018: Image # 30, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:58 2018: Image # 4, module ColorToGray # 5: CPU_time = 3.79 secs, Wall_time = 2.22 secs
+Wed Sep 19 14:55:58 2018: Image # 1, module ColorToGray # 5: CPU_time = 3.88 secs, Wall_time = 2.39 secs
+Wed Sep 19 14:55:55 2018: Image # 26, module NamesAndTypes # 3: CPU_time = 7.14 secs, Wall_time = 5.14 secs
+Wed Sep 19 14:56:00 2018: Image # 26, module Groups # 4: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:55:58 2018: Image # 6, module ColorToGray # 5: CPU_time = 4.65 secs, Wall_time = 2.10 secs
+Wed Sep 19 14:55:58 2018: Image # 7, module ColorToGray # 5: CPU_time = 4.07 secs, Wall_time = 2.27 secs
+Wed Sep 19 14:55:58 2018: Image # 5, module ColorToGray # 5: CPU_time = 5.03 secs, Wall_time = 2.48 secs
+Wed Sep 19 14:55:58 2018: Image # 15, module ColorToGray # 5: CPU_time = 4.33 secs, Wall_time = 2.45 secs
+Wed Sep 19 14:55:59 2018: Image # 18, module ColorToGray # 5: CPU_time = 3.58 secs, Wall_time = 2.27 secs
+Wed Sep 19 14:55:58 2018: Image # 8, module ColorToGray # 5: CPU_time = 4.89 secs, Wall_time = 2.58 secs
+Wed Sep 19 14:55:59 2018: Image # 12, module ColorToGray # 5: CPU_time = 5.65 secs, Wall_time = 2.56 secs
+Wed Sep 19 14:55:58 2018: Image # 9, module ColorToGray # 5: CPU_time = 5.08 secs, Wall_time = 2.91 secs
+Wed Sep 19 14:55:59 2018: Image # 29, module ColorToGray # 5: CPU_time = 4.29 secs, Wall_time = 2.31 secs
+Wed Sep 19 14:55:59 2018: Image # 17, module ColorToGray # 5: CPU_time = 4.80 secs, Wall_time = 2.60 secs
+Wed Sep 19 14:55:59 2018: Image # 25, module ColorToGray # 5: CPU_time = 4.44 secs, Wall_time = 2.65 secs
+Wed Sep 19 14:55:59 2018: Image # 11, module ColorToGray # 5: CPU_time = 4.67 secs, Wall_time = 2.66 secs
+Wed Sep 19 14:55:59 2018: Image # 16, module ColorToGray # 5: CPU_time = 4.92 secs, Wall_time = 3.13 secs
+Wed Sep 19 14:55:59 2018: Image # 2, module ColorToGray # 5: CPU_time = 5.58 secs, Wall_time = 3.38 secs
+Wed Sep 19 14:55:59 2018: Image # 19, module ColorToGray # 5: CPU_time = 5.55 secs, Wall_time = 3.06 secs
+Wed Sep 19 14:55:59 2018: Image # 22, module ColorToGray # 5: CPU_time = 6.13 secs, Wall_time = 3.04 secs
+Wed Sep 19 14:55:59 2018: Image # 23, module ColorToGray # 5: CPU_time = 6.17 secs, Wall_time = 3.10 secs
+Wed Sep 19 14:55:59 2018: Image # 13, module ColorToGray # 5: CPU_time = 6.39 secs, Wall_time = 3.12 secs
+Wed Sep 19 14:56:00 2018: Image # 10, module ColorToGray # 5: CPU_time = 4.21 secs, Wall_time = 2.73 secs
+Wed Sep 19 14:56:00 2018: Image # 14, module ColorToGray # 5: CPU_time = 3.79 secs, Wall_time = 2.56 secs
+Wed Sep 19 14:56:00 2018: Image # 28, module ColorToGray # 5: CPU_time = 5.00 secs, Wall_time = 2.92 secs
+Wed Sep 19 14:56:00 2018: Image # 27, module ColorToGray # 5: CPU_time = 5.63 secs, Wall_time = 2.95 secs
+Wed Sep 19 14:56:00 2018: Image # 20, module ColorToGray # 5: CPU_time = 4.52 secs, Wall_time = 2.77 secs
+Wed Sep 19 14:56:00 2018: Image # 30, module ColorToGray # 5: CPU_time = 5.78 secs, Wall_time = 2.76 secs
+Wed Sep 19 14:56:00 2018: Image # 24, module ColorToGray # 5: CPU_time = 6.00 secs, Wall_time = 3.04 secs
+Wed Sep 19 14:56:00 2018: Image # 26, module ColorToGray # 5: CPU_time = 4.98 secs, Wall_time = 2.78 secs
+Wed Sep 19 14:56:00 2018: Image # 21, module ColorToGray # 5: CPU_time = 6.12 secs, Wall_time = 3.01 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+/home/freeman.k/.local/lib/python2.7/site-packages/centrosome/cpmorphology.py:413: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  index_i, index_j, image = prepare_for_index_lookup(image, False)
+Wed Sep 19 14:56:00 2018: Image # 4, module IdentifyPrimaryObjects # 6: CPU_time = 27.66 secs, Wall_time = 27.68 secs
+Wed Sep 19 14:56:00 2018: Image # 3, module IdentifyPrimaryObjects # 6: CPU_time = 28.03 secs, Wall_time = 28.11 secs
+Wed Sep 19 14:56:00 2018: Image # 6, module IdentifyPrimaryObjects # 6: CPU_time = 28.79 secs, Wall_time = 28.82 secs
+Wed Sep 19 14:56:00 2018: Image # 5, module IdentifyPrimaryObjects # 6: CPU_time = 28.71 secs, Wall_time = 28.69 secs
+Wed Sep 19 14:56:01 2018: Image # 18, module IdentifyPrimaryObjects # 6: CPU_time = 28.42 secs, Wall_time = 28.40 secs
+Wed Sep 19 14:56:00 2018: Image # 7, module IdentifyPrimaryObjects # 6: CPU_time = 29.05 secs, Wall_time = 29.06 secs
+Wed Sep 19 14:56:00 2018: Image # 1, module IdentifyPrimaryObjects # 6: CPU_time = 29.63 secs, Wall_time = 29.70 secs
+Wed Sep 19 14:56:01 2018: Image # 9, module IdentifyPrimaryObjects # 6: CPU_time = 28.47 secs, Wall_time = 28.43 secs
+Wed Sep 19 14:56:30 2018: Image # 9, module MeasureObjectSizeShape # 7: CPU_time = 0.04 secs, Wall_time = 0.04 secs
+Wed Sep 19 14:56:01 2018: Image # 15, module IdentifyPrimaryObjects # 6: CPU_time = 29.08 secs, Wall_time = 29.04 secs
+Wed Sep 19 14:56:01 2018: Image # 12, module IdentifyPrimaryObjects # 6: CPU_time = 28.71 secs, Wall_time = 28.68 secs
+Wed Sep 19 14:56:01 2018: Image # 29, module IdentifyPrimaryObjects # 6: CPU_time = 28.90 secs, Wall_time = 28.86 secs
+Wed Sep 19 14:56:02 2018: Image # 25, module IdentifyPrimaryObjects # 6: CPU_time = 28.86 secs, Wall_time = 28.82 secs
+Wed Sep 19 14:56:02 2018: Image # 11, module IdentifyPrimaryObjects # 6: CPU_time = 29.59 secs, Wall_time = 29.55 secs
+Wed Sep 19 14:56:02 2018: Image # 17, module IdentifyPrimaryObjects # 6: CPU_time = 29.77 secs, Wall_time = 29.73 secs
+Wed Sep 19 14:56:02 2018: Image # 22, module IdentifyPrimaryObjects # 6: CPU_time = 28.93 secs, Wall_time = 28.89 secs
+Wed Sep 19 14:56:02 2018: Image # 16, module IdentifyPrimaryObjects # 6: CPU_time = 29.33 secs, Wall_time = 29.29 secs
+Wed Sep 19 14:56:02 2018: Image # 2, module IdentifyPrimaryObjects # 6: CPU_time = 29.32 secs, Wall_time = 29.28 secs
+Wed Sep 19 14:56:01 2018: Image # 8, module IdentifyPrimaryObjects # 6: CPU_time = 30.75 secs, Wall_time = 30.71 secs
+Wed Sep 19 14:56:02 2018: Image # 19, module IdentifyPrimaryObjects # 6: CPU_time = 29.56 secs, Wall_time = 29.53 secs
+Wed Sep 19 14:56:03 2018: Image # 20, module IdentifyPrimaryObjects # 6: CPU_time = 29.14 secs, Wall_time = 29.12 secs
+Wed Sep 19 14:56:03 2018: Image # 14, module IdentifyPrimaryObjects # 6: CPU_time = 29.40 secs, Wall_time = 29.36 secs
+Wed Sep 19 14:56:02 2018: Image # 23, module IdentifyPrimaryObjects # 6: CPU_time = 29.54 secs, Wall_time = 29.49 secs
+Wed Sep 19 14:56:03 2018: Image # 27, module IdentifyPrimaryObjects # 6: CPU_time = 29.38 secs, Wall_time = 29.35 secs
+Wed Sep 19 14:56:03 2018: Image # 26, module IdentifyPrimaryObjects # 6: CPU_time = 29.45 secs, Wall_time = 29.42 secs
+Wed Sep 19 14:56:03 2018: Image # 28, module IdentifyPrimaryObjects # 6: CPU_time = 29.72 secs, Wall_time = 29.68 secs
+Wed Sep 19 14:56:30 2018: Image # 9, module FilterObjects # 8: CPU_time = 2.47 secs, Wall_time = 2.46 secs
+Wed Sep 19 14:56:32 2018: Image # 9, module MeasureObjectSizeShape # 9: CPU_time = 0.03 secs, Wall_time = 0.04 secs
+Wed Sep 19 14:56:03 2018: Image # 21, module IdentifyPrimaryObjects # 6: CPU_time = 29.53 secs, Wall_time = 29.48 secs
+Wed Sep 19 14:56:32 2018: Image # 21, module MeasureObjectSizeShape # 7: CPU_time = 0.04 secs, Wall_time = 0.04 secs
+Wed Sep 19 14:56:03 2018: Image # 30, module IdentifyPrimaryObjects # 6: CPU_time = 30.03 secs, Wall_time = 29.99 secs
+Wed Sep 19 14:56:02 2018: Image # 13, module IdentifyPrimaryObjects # 6: CPU_time = 30.49 secs, Wall_time = 30.46 secs
+Wed Sep 19 14:56:03 2018: Image # 24, module IdentifyPrimaryObjects # 6: CPU_time = 30.81 secs, Wall_time = 30.77 secs
+Wed Sep 19 14:56:32 2018: Image # 9, module OverlayOutlines # 10: CPU_time = 1.75 secs, Wall_time = 1.74 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:02 2018: Image # 10, module IdentifyPrimaryObjects # 6: CPU_time = 31.76 secs, Wall_time = 31.74 secs
+Wed Sep 19 14:56:33 2018: Image # 21, module FilterObjects # 8: CPU_time = 2.58 secs, Wall_time = 2.57 secs
+Wed Sep 19 14:56:35 2018: Image # 21, module MeasureObjectSizeShape # 9: CPU_time = 0.05 secs, Wall_time = 0.05 secs
+Wed Sep 19 14:56:35 2018: Image # 21, module OverlayOutlines # 10: CPU_time = 2.14 secs, Wall_time = 2.14 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:37 2018: Image # 21, module SaveImages # 11: CPU_time = 8.85 secs, Wall_time = 8.84 secs
+Wed Sep 19 14:56:28 2018: Image # 4, module MeasureObjectSizeShape # 7: CPU_time = 18.46 secs, Wall_time = 18.44 secs
+Wed Sep 19 14:56:46 2018: Image # 21, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:56:34 2018: Image # 9, module SaveImages # 11: CPU_time = 12.64 secs, Wall_time = 12.62 secs
+Wed Sep 19 14:56:47 2018: Image # 9, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:56:28 2018: Image # 3, module MeasureObjectSizeShape # 7: CPU_time = 19.06 secs, Wall_time = 19.04 secs
+Wed Sep 19 14:56:29 2018: Image # 5, module MeasureObjectSizeShape # 7: CPU_time = 19.34 secs, Wall_time = 19.31 secs
+Wed Sep 19 14:56:29 2018: Image # 18, module MeasureObjectSizeShape # 7: CPU_time = 19.42 secs, Wall_time = 19.40 secs
+Wed Sep 19 14:56:29 2018: Image # 6, module MeasureObjectSizeShape # 7: CPU_time = 20.07 secs, Wall_time = 20.04 secs
+Wed Sep 19 14:56:29 2018: Image # 7, module MeasureObjectSizeShape # 7: CPU_time = 19.99 secs, Wall_time = 19.97 secs
+Wed Sep 19 14:56:46 2018: Image # 4, module FilterObjects # 8: CPU_time = 3.28 secs, Wall_time = 3.28 secs
+Wed Sep 19 14:56:30 2018: Image # 12, module MeasureObjectSizeShape # 7: CPU_time = 19.58 secs, Wall_time = 19.56 secs
+Wed Sep 19 14:56:30 2018: Image # 1, module MeasureObjectSizeShape # 7: CPU_time = 19.98 secs, Wall_time = 19.95 secs
+Wed Sep 19 14:56:30 2018: Image # 15, module MeasureObjectSizeShape # 7: CPU_time = 19.93 secs, Wall_time = 19.90 secs
+Wed Sep 19 14:56:47 2018: Image # 3, module FilterObjects # 8: CPU_time = 3.26 secs, Wall_time = 3.25 secs
+Wed Sep 19 14:56:31 2018: Image # 25, module MeasureObjectSizeShape # 7: CPU_time = 19.63 secs, Wall_time = 19.60 secs
+Wed Sep 19 14:56:30 2018: Image # 29, module MeasureObjectSizeShape # 7: CPU_time = 19.92 secs, Wall_time = 19.90 secs
+Wed Sep 19 14:56:31 2018: Image # 22, module MeasureObjectSizeShape # 7: CPU_time = 19.61 secs, Wall_time = 19.59 secs
+Wed Sep 19 14:56:32 2018: Image # 23, module MeasureObjectSizeShape # 7: CPU_time = 19.46 secs, Wall_time = 19.43 secs
+Wed Sep 19 14:56:32 2018: Image # 16, module MeasureObjectSizeShape # 7: CPU_time = 19.97 secs, Wall_time = 19.95 secs
+Wed Sep 19 14:56:31 2018: Image # 17, module MeasureObjectSizeShape # 7: CPU_time = 20.24 secs, Wall_time = 20.20 secs
+Wed Sep 19 14:56:49 2018: Image # 18, module FilterObjects # 8: CPU_time = 2.87 secs, Wall_time = 2.87 secs
+Wed Sep 19 14:56:48 2018: Image # 5, module FilterObjects # 8: CPU_time = 3.30 secs, Wall_time = 3.30 secs
+Wed Sep 19 14:56:32 2018: Image # 2, module MeasureObjectSizeShape # 7: CPU_time = 20.21 secs, Wall_time = 20.19 secs
+Wed Sep 19 14:56:32 2018: Image # 14, module MeasureObjectSizeShape # 7: CPU_time = 20.02 secs, Wall_time = 20.00 secs
+Wed Sep 19 14:56:32 2018: Image # 8, module MeasureObjectSizeShape # 7: CPU_time = 20.26 secs, Wall_time = 20.22 secs
+Wed Sep 19 14:56:49 2018: Image # 6, module FilterObjects # 8: CPU_time = 2.93 secs, Wall_time = 2.94 secs
+Wed Sep 19 14:56:49 2018: Image # 7, module FilterObjects # 8: CPU_time = 2.81 secs, Wall_time = 2.80 secs
+Wed Sep 19 14:56:32 2018: Image # 19, module MeasureObjectSizeShape # 7: CPU_time = 20.31 secs, Wall_time = 20.28 secs
+Wed Sep 19 14:56:32 2018: Image # 27, module MeasureObjectSizeShape # 7: CPU_time = 20.11 secs, Wall_time = 20.09 secs
+Wed Sep 19 14:56:32 2018: Image # 26, module MeasureObjectSizeShape # 7: CPU_time = 19.94 secs, Wall_time = 19.91 secs
+Wed Sep 19 14:56:50 2018: Image # 12, module FilterObjects # 8: CPU_time = 2.73 secs, Wall_time = 2.72 secs
+Wed Sep 19 14:56:32 2018: Image # 20, module MeasureObjectSizeShape # 7: CPU_time = 20.63 secs, Wall_time = 20.60 secs
+Wed Sep 19 14:56:50 2018: Image # 15, module FilterObjects # 8: CPU_time = 2.73 secs, Wall_time = 2.73 secs
+Wed Sep 19 14:56:32 2018: Image # 28, module MeasureObjectSizeShape # 7: CPU_time = 20.32 secs, Wall_time = 20.29 secs
+Wed Sep 19 14:56:50 2018: Image # 25, module FilterObjects # 8: CPU_time = 2.51 secs, Wall_time = 2.52 secs
+Wed Sep 19 14:56:31 2018: Image # 11, module MeasureObjectSizeShape # 7: CPU_time = 21.39 secs, Wall_time = 21.37 secs
+Wed Sep 19 14:56:53 2018: Image # 25, module MeasureObjectSizeShape # 9: CPU_time = 0.03 secs, Wall_time = 0.04 secs
+Wed Sep 19 14:56:50 2018: Image # 1, module FilterObjects # 8: CPU_time = 3.06 secs, Wall_time = 3.05 secs
+Wed Sep 19 14:56:50 2018: Image # 29, module FilterObjects # 8: CPU_time = 2.67 secs, Wall_time = 2.67 secs
+Wed Sep 19 14:56:33 2018: Image # 13, module MeasureObjectSizeShape # 7: CPU_time = 20.07 secs, Wall_time = 20.04 secs
+Wed Sep 19 14:56:33 2018: Image # 30, module MeasureObjectSizeShape # 7: CPU_time = 20.29 secs, Wall_time = 20.27 secs
+Wed Sep 19 14:56:34 2018: Image # 24, module MeasureObjectSizeShape # 7: CPU_time = 19.84 secs, Wall_time = 19.81 secs
+Wed Sep 19 14:56:34 2018: Image # 10, module MeasureObjectSizeShape # 7: CPU_time = 19.31 secs, Wall_time = 19.28 secs
+Wed Sep 19 14:56:51 2018: Image # 22, module FilterObjects # 8: CPU_time = 2.59 secs, Wall_time = 2.60 secs
+Wed Sep 19 14:56:51 2018: Image # 23, module FilterObjects # 8: CPU_time = 2.67 secs, Wall_time = 2.67 secs
+Wed Sep 19 14:56:51 2018: Image # 16, module FilterObjects # 8: CPU_time = 2.64 secs, Wall_time = 2.63 secs
+Wed Sep 19 14:56:53 2018: Image # 25, module OverlayOutlines # 10: CPU_time = 1.48 secs, Wall_time = 1.43 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:52 2018: Image # 17, module FilterObjects # 8: CPU_time = 2.65 secs, Wall_time = 2.65 secs
+Wed Sep 19 14:56:52 2018: Image # 2, module FilterObjects # 8: CPU_time = 2.60 secs, Wall_time = 2.60 secs
+Wed Sep 19 14:56:52 2018: Image # 8, module FilterObjects # 8: CPU_time = 2.59 secs, Wall_time = 2.58 secs
+Wed Sep 19 14:56:52 2018: Image # 14, module FilterObjects # 8: CPU_time = 2.80 secs, Wall_time = 2.80 secs
+Wed Sep 19 14:56:52 2018: Image # 19, module FilterObjects # 8: CPU_time = 2.58 secs, Wall_time = 2.58 secs
+Wed Sep 19 14:56:52 2018: Image # 27, module FilterObjects # 8: CPU_time = 2.58 secs, Wall_time = 2.58 secs
+Wed Sep 19 14:56:52 2018: Image # 26, module FilterObjects # 8: CPU_time = 2.58 secs, Wall_time = 2.58 secs
+Wed Sep 19 14:56:52 2018: Image # 20, module FilterObjects # 8: CPU_time = 2.63 secs, Wall_time = 2.62 secs
+Wed Sep 19 14:56:53 2018: Image # 28, module FilterObjects # 8: CPU_time = 2.56 secs, Wall_time = 2.54 secs
+Wed Sep 19 14:56:53 2018: Image # 11, module FilterObjects # 8: CPU_time = 2.76 secs, Wall_time = 2.76 secs
+Wed Sep 19 14:56:53 2018: Image # 13, module FilterObjects # 8: CPU_time = 2.53 secs, Wall_time = 2.53 secs
+Wed Sep 19 14:56:53 2018: Image # 30, module FilterObjects # 8: CPU_time = 2.56 secs, Wall_time = 2.55 secs
+Wed Sep 19 14:56:53 2018: Image # 24, module FilterObjects # 8: CPU_time = 2.54 secs, Wall_time = 2.54 secs
+Wed Sep 19 14:56:54 2018: Image # 10, module FilterObjects # 8: CPU_time = 2.69 secs, Wall_time = 2.68 secs
+Wed Sep 19 14:56:49 2018: Image # 4, module MeasureObjectSizeShape # 9: CPU_time = 17.08 secs, Wall_time = 17.06 secs
+Wed Sep 19 14:56:50 2018: Image # 3, module MeasureObjectSizeShape # 9: CPU_time = 17.90 secs, Wall_time = 17.89 secs
+Wed Sep 19 14:57:06 2018: Image # 4, module OverlayOutlines # 10: CPU_time = 2.31 secs, Wall_time = 2.24 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:52 2018: Image # 18, module MeasureObjectSizeShape # 9: CPU_time = 18.27 secs, Wall_time = 18.24 secs
+Wed Sep 19 14:56:52 2018: Image # 5, module MeasureObjectSizeShape # 9: CPU_time = 18.22 secs, Wall_time = 18.20 secs
+Wed Sep 19 14:56:54 2018: Image # 25, module SaveImages # 11: CPU_time = 16.35 secs, Wall_time = 16.33 secs
+Wed Sep 19 14:57:08 2018: Image # 3, module OverlayOutlines # 10: CPU_time = 2.44 secs, Wall_time = 2.44 secs
+Wed Sep 19 14:57:10 2018: Image # 25, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:52 2018: Image # 12, module MeasureObjectSizeShape # 9: CPU_time = 18.76 secs, Wall_time = 18.74 secs
+Wed Sep 19 14:56:52 2018: Image # 7, module MeasureObjectSizeShape # 9: CPU_time = 19.56 secs, Wall_time = 19.54 secs
+Wed Sep 19 14:56:52 2018: Image # 6, module MeasureObjectSizeShape # 9: CPU_time = 19.66 secs, Wall_time = 19.64 secs
+Wed Sep 19 14:56:53 2018: Image # 15, module MeasureObjectSizeShape # 9: CPU_time = 19.20 secs, Wall_time = 19.18 secs
+Wed Sep 19 14:56:53 2018: Image # 29, module MeasureObjectSizeShape # 9: CPU_time = 19.15 secs, Wall_time = 19.12 secs
+Wed Sep 19 14:56:53 2018: Image # 1, module MeasureObjectSizeShape # 9: CPU_time = 19.22 secs, Wall_time = 19.21 secs
+Wed Sep 19 14:57:10 2018: Image # 5, module OverlayOutlines # 10: CPU_time = 2.20 secs, Wall_time = 2.11 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:10 2018: Image # 18, module OverlayOutlines # 10: CPU_time = 2.64 secs, Wall_time = 2.54 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:54 2018: Image # 22, module MeasureObjectSizeShape # 9: CPU_time = 19.16 secs, Wall_time = 19.14 secs
+Wed Sep 19 14:57:11 2018: Image # 12, module OverlayOutlines # 10: CPU_time = 2.29 secs, Wall_time = 2.23 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:54 2018: Image # 16, module MeasureObjectSizeShape # 9: CPU_time = 19.23 secs, Wall_time = 19.20 secs
+Wed Sep 19 14:56:54 2018: Image # 23, module MeasureObjectSizeShape # 9: CPU_time = 19.33 secs, Wall_time = 19.32 secs
+Wed Sep 19 14:56:54 2018: Image # 17, module MeasureObjectSizeShape # 9: CPU_time = 19.37 secs, Wall_time = 19.35 secs
+Wed Sep 19 14:57:12 2018: Image # 7, module OverlayOutlines # 10: CPU_time = 2.16 secs, Wall_time = 2.16 secs
+Wed Sep 19 14:56:54 2018: Image # 2, module MeasureObjectSizeShape # 9: CPU_time = 19.50 secs, Wall_time = 19.47 secs
+Wed Sep 19 14:57:12 2018: Image # 6, module OverlayOutlines # 10: CPU_time = 2.29 secs, Wall_time = 2.19 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:12 2018: Image # 15, module OverlayOutlines # 10: CPU_time = 2.25 secs, Wall_time = 2.18 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:55 2018: Image # 14, module MeasureObjectSizeShape # 9: CPU_time = 19.36 secs, Wall_time = 19.34 secs
+Wed Sep 19 14:57:12 2018: Image # 29, module OverlayOutlines # 10: CPU_time = 2.05 secs, Wall_time = 2.05 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:55 2018: Image # 27, module MeasureObjectSizeShape # 9: CPU_time = 19.36 secs, Wall_time = 19.33 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:12 2018: Image # 1, module OverlayOutlines # 10: CPU_time = 2.19 secs, Wall_time = 2.19 secs
+Wed Sep 19 14:56:55 2018: Image # 26, module MeasureObjectSizeShape # 9: CPU_time = 19.43 secs, Wall_time = 19.39 secs
+Wed Sep 19 14:56:55 2018: Image # 8, module MeasureObjectSizeShape # 9: CPU_time = 19.70 secs, Wall_time = 19.68 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:13 2018: Image # 22, module OverlayOutlines # 10: CPU_time = 1.85 secs, Wall_time = 1.85 secs
+Wed Sep 19 14:56:55 2018: Image # 19, module MeasureObjectSizeShape # 9: CPU_time = 19.87 secs, Wall_time = 19.86 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:55 2018: Image # 28, module MeasureObjectSizeShape # 9: CPU_time = 19.72 secs, Wall_time = 19.69 secs
+Wed Sep 19 14:56:55 2018: Image # 20, module MeasureObjectSizeShape # 9: CPU_time = 19.95 secs, Wall_time = 19.92 secs
+Wed Sep 19 14:57:13 2018: Image # 23, module OverlayOutlines # 10: CPU_time = 1.83 secs, Wall_time = 1.82 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:56 2018: Image # 30, module MeasureObjectSizeShape # 9: CPU_time = 19.80 secs, Wall_time = 19.77 secs
+Wed Sep 19 14:56:55 2018: Image # 13, module MeasureObjectSizeShape # 9: CPU_time = 19.91 secs, Wall_time = 19.88 secs
+Wed Sep 19 14:57:13 2018: Image # 16, module OverlayOutlines # 10: CPU_time = 2.25 secs, Wall_time = 2.18 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:14 2018: Image # 17, module OverlayOutlines # 10: CPU_time = 2.17 secs, Wall_time = 2.09 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:56 2018: Image # 10, module MeasureObjectSizeShape # 9: CPU_time = 19.57 secs, Wall_time = 19.54 secs
+Wed Sep 19 14:57:14 2018: Image # 14, module OverlayOutlines # 10: CPU_time = 1.75 secs, Wall_time = 1.74 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:14 2018: Image # 26, module OverlayOutlines # 10: CPU_time = 1.70 secs, Wall_time = 1.70 secs
+Wed Sep 19 14:57:14 2018: Image # 2, module OverlayOutlines # 10: CPU_time = 2.12 secs, Wall_time = 2.11 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:56 2018: Image # 24, module MeasureObjectSizeShape # 9: CPU_time = 19.99 secs, Wall_time = 19.97 secs
+Wed Sep 19 14:57:14 2018: Image # 27, module OverlayOutlines # 10: CPU_time = 1.93 secs, Wall_time = 1.93 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:14 2018: Image # 8, module OverlayOutlines # 10: CPU_time = 2.03 secs, Wall_time = 2.03 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:56:55 2018: Image # 11, module MeasureObjectSizeShape # 9: CPU_time = 21.07 secs, Wall_time = 21.04 secs
+Wed Sep 19 14:57:15 2018: Image # 19, module OverlayOutlines # 10: CPU_time = 2.03 secs, Wall_time = 1.94 secs
+Wed Sep 19 14:57:15 2018: Image # 28, module OverlayOutlines # 10: CPU_time = 1.79 secs, Wall_time = 1.71 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:15 2018: Image # 20, module OverlayOutlines # 10: CPU_time = 1.81 secs, Wall_time = 1.73 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:15 2018: Image # 30, module OverlayOutlines # 10: CPU_time = 1.90 secs, Wall_time = 1.74 secs
+Wed Sep 19 14:57:15 2018: Image # 13, module OverlayOutlines # 10: CPU_time = 1.75 secs, Wall_time = 1.75 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:16 2018: Image # 10, module OverlayOutlines # 10: CPU_time = 1.46 secs, Wall_time = 1.46 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:16 2018: Image # 24, module OverlayOutlines # 10: CPU_time = 1.64 secs, Wall_time = 1.63 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:16 2018: Image # 11, module OverlayOutlines # 10: CPU_time = 1.61 secs, Wall_time = 1.54 secs
+/home/freeman.k/.local/lib/python2.7/site-packages/skimage/util/dtype.py:130: UserWarning: Possible precision loss when converting from float32 to uint8
+  .format(dtypeobj_in, dtypeobj_out))
+Wed Sep 19 14:57:16 2018: Image # 2, module SaveImages # 11: CPU_time = 7.06 secs, Wall_time = 7.05 secs
+Wed Sep 19 14:57:23 2018: Image # 2, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:15 2018: Image # 22, module SaveImages # 11: CPU_time = 8.72 secs, Wall_time = 8.72 secs
+Wed Sep 19 14:57:23 2018: Image # 22, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:09 2018: Image # 4, module SaveImages # 11: CPU_time = 16.23 secs, Wall_time = 16.22 secs
+Wed Sep 19 14:57:25 2018: Image # 4, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:15 2018: Image # 23, module SaveImages # 11: CPU_time = 9.88 secs, Wall_time = 9.87 secs
+Wed Sep 19 14:57:25 2018: Image # 23, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:10 2018: Image # 3, module SaveImages # 11: CPU_time = 16.02 secs, Wall_time = 16.01 secs
+Wed Sep 19 14:57:26 2018: Image # 3, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:18 2018: Image # 24, module SaveImages # 11: CPU_time = 9.64 secs, Wall_time = 9.64 secs
+Wed Sep 19 14:57:27 2018: Image # 24, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:12 2018: Image # 5, module SaveImages # 11: CPU_time = 15.43 secs, Wall_time = 15.41 secs
+Wed Sep 19 14:57:27 2018: Image # 5, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:13 2018: Image # 12, module SaveImages # 11: CPU_time = 15.15 secs, Wall_time = 15.15 secs
+Wed Sep 19 14:57:28 2018: Image # 12, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:12 2018: Image # 18, module SaveImages # 11: CPU_time = 16.19 secs, Wall_time = 16.18 secs
+Wed Sep 19 14:57:29 2018: Image # 18, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:14 2018: Image # 6, module SaveImages # 11: CPU_time = 14.84 secs, Wall_time = 14.84 secs
+Wed Sep 19 14:57:29 2018: Image # 6, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:14 2018: Image # 7, module SaveImages # 11: CPU_time = 15.25 secs, Wall_time = 15.25 secs
+Wed Sep 19 14:57:29 2018: Image # 7, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:14 2018: Image # 29, module SaveImages # 11: CPU_time = 15.41 secs, Wall_time = 15.40 secs
+Wed Sep 19 14:57:29 2018: Image # 29, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:14 2018: Image # 1, module SaveImages # 11: CPU_time = 15.30 secs, Wall_time = 15.29 secs
+Wed Sep 19 14:57:30 2018: Image # 1, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:14 2018: Image # 15, module SaveImages # 11: CPU_time = 16.03 secs, Wall_time = 16.01 secs
+Wed Sep 19 14:57:30 2018: Image # 15, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:16 2018: Image # 26, module SaveImages # 11: CPU_time = 14.45 secs, Wall_time = 14.44 secs
+Wed Sep 19 14:57:30 2018: Image # 26, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:16 2018: Image # 17, module SaveImages # 11: CPU_time = 14.86 secs, Wall_time = 14.85 secs
+Wed Sep 19 14:57:30 2018: Image # 17, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:16 2018: Image # 14, module SaveImages # 11: CPU_time = 14.86 secs, Wall_time = 14.86 secs
+Wed Sep 19 14:57:31 2018: Image # 14, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:16 2018: Image # 16, module SaveImages # 11: CPU_time = 15.87 secs, Wall_time = 15.85 secs
+Wed Sep 19 14:57:31 2018: Image # 16, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:17 2018: Image # 19, module SaveImages # 11: CPU_time = 14.86 secs, Wall_time = 14.85 secs
+Wed Sep 19 14:57:31 2018: Image # 19, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:17 2018: Image # 28, module SaveImages # 11: CPU_time = 14.92 secs, Wall_time = 14.92 secs
+Wed Sep 19 14:57:31 2018: Image # 28, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:16 2018: Image # 27, module SaveImages # 11: CPU_time = 15.57 secs, Wall_time = 15.56 secs
+Wed Sep 19 14:57:32 2018: Image # 27, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:17 2018: Image # 10, module SaveImages # 11: CPU_time = 14.60 secs, Wall_time = 14.60 secs
+Wed Sep 19 14:57:32 2018: Image # 10, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:16 2018: Image # 8, module SaveImages # 11: CPU_time = 15.54 secs, Wall_time = 15.54 secs
+Wed Sep 19 14:57:32 2018: Image # 8, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:17 2018: Image # 20, module SaveImages # 11: CPU_time = 15.51 secs, Wall_time = 15.50 secs
+Wed Sep 19 14:57:32 2018: Image # 20, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:17 2018: Image # 13, module SaveImages # 11: CPU_time = 15.56 secs, Wall_time = 15.56 secs
+Wed Sep 19 14:57:33 2018: Image # 13, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:17 2018: Image # 30, module SaveImages # 11: CPU_time = 16.28 secs, Wall_time = 16.27 secs
+Wed Sep 19 14:57:33 2018: Image # 30, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
+Wed Sep 19 14:57:18 2018: Image # 11, module SaveImages # 11: CPU_time = 16.21 secs, Wall_time = 16.21 secs
+Wed Sep 19 14:57:34 2018: Image # 11, module ExportToSpreadsheet # 12: CPU_time = 0.00 secs, Wall_time = 0.00 secs
