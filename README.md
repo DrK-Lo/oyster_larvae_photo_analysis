@@ -22,11 +22,15 @@ The first thing you should do is add the src directory to your path:
 
 You can add this line your bashrc file so that you don't have to do this everytime you log in. It should be stored at ~/.bashrc
 
+### Download images
+
 You can download a dropbox image set directly from the command line. Go to the dropbox website, navigate to the folder that you want to download, click "share" then "Create a link". Click "copy link" and then you can paste the link into the command line to use in curl:
 
 `$ curl -L https://www.dropbox.com/sh/n5exampleqs9/AACDlinkvq7408jb_vd0a?dl=1 > J006_B1.zip`
 
 **You may have to edit the dropbox link by changing dl=0 to dl=1 at the end of the link**
+
+### Run the command
 
 Now to run the analysis, simply type the command 'analyze_oyster_larvae.sh' followed by the name of the folder where you downloaded the images.
 
@@ -36,7 +40,9 @@ Now to run the analysis, simply type the command 'analyze_oyster_larvae.sh' foll
 
 You're done! Inspect the overlays and see if everything looks good. Assuming you followed the setup instructions, you can use the same command on any image set by just changing J006_B1 to whatever your image set is called.
 
-You can edit the Ilastik and CellProfiler pipelines or create your own by following the instructions below. If you edit the existing pipelines and put save them in the same directory, you can run the analysis without any changes. If you create new pipelines with different names, just edit src/ananlyze_oyster_larvae.sh to change the variables ilastikPipelins and cellpPipeline to whatever your new pipeline is called.
+### Editing the pipeline 
+
+You can edit the Ilastik and CellProfiler pipelines or create your own by following the instructions below. If you edit the existing pipelines and put save them in the same directory, you can run the analysis without any changes. If you create new pipelines with different names, just edit src/ananlyze_oyster_larvae.sh to change the variables ilastikPipeline and cellpPipeline to whatever your new pipeline is called.
 
 ## Ilastik
 
