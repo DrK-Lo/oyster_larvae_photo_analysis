@@ -8,6 +8,7 @@
 
 
 [CellProfiler](#cellprofiler)
+
 ---
 
 This is a pipeline used to easily measure the size of oyster larvae in a batch of images. There are 2 main steps:
