@@ -14,36 +14,29 @@ The final output is contained in two directories:
 
 I included the folder for J006_B1 in the repository so you can see what the final output looks like. It includes all the original image files as well so you can test the scripts on them.
 
-## Setup
+## Quick start 
 
 The first thing you should do is add the src directory to your path:
 
 `$ PATH=$PATH:~/oyster_measurement/src/`
 
-Next, move your images to the oyster_measurement folder and unzip them if they are zipped:
+You can add this line your bashrc file so that you don't have to do this everytime you log in. It should be stored at ~/.bashrc
 
-`$ mv J006_B1.zip oyster_measurement`
-`$ unzip oyster_measurement/J006_B1.zip`
+You can download a dropbox image set directly from the command line. Go to the dropbox website, navigate to the folder that you want to download, click "share" then "Create a link". Click "copy link" and then you can paste the link into the command line to use in curl:
 
-Inside the image directory, create a directory called 'orig_images' and put all the images in there. If you want to organize your project in some other way you can, but you will have to create the image list for runCellProfilerParallel.sh yourself instead of letting the script create it (see below).
+`$ curl -L https://www.dropbox.com/sh/n5exampleqs9/AACDlinkvq7408jb_vd0a?dl=1 > J006_B1.zip`
 
-`$ cd oyster_measurement/J006_B1`
-`$ mkdir orig_images`
-`$ mv *.png orig_images`
+**You may have to edit the dropbox link by changing dl=0 to dl=1 at the end of the link**
 
-You're now ready to start! You can either attempt to train your own Ilastik classifier or just run a quick analysis with all the defaults
+Now to run the analysis, simply type the command 'analyze_oyster_larvae.sh' followed by the name of the folder where you downloaded the images.
 
-### Default analysis
+`$ analyze_oyster_larvae.sh J006_B1`
 
-`$ run_ilastik_for_cellp.sh -p ../generate_prob_maps.ilp -f orig_images/*`
+*Takes 20 -30 minutes*
 
-*takes 20-30 minutes*
+You're done! Inspect the overlays and see if everything looks good. Assuming you followed the setup instructions, you can use the same command on any image set by just changing J006_B1 to whatever your image set is called.
 
-`$ runCellProfilerParallel.sh J006_B1 ../analyze_prob_maps.cppipe`
-
-*takes 2-3 minutes*
-
-You're done! Inspect the overlays and see if everything looks good. Assuming you followed the setup instructions, you can use these same two commands on any image set by just changing J006_B1 in the 2nd command to whatever your image set should be called.
+You can edit the Ilastik and CellProfiler pipelines or create your own by following the instructions below. If you edit the existing pipelines and put save them in the same directory, you can run the analysis without any changes. If you create new pipelines with different names, just edit src/ananlyze_oyster_larvae.sh to change the variables ilastikPipelins and cellpPipeline to whatever your new pipeline is called.
 
 ## Ilastik
 
@@ -95,7 +88,7 @@ Example Execution:
 
 This should take under 3 minutes to run the entire set of images, unless you have less cores than images.
 
-Output: A results directory that contains a directory of overlays and a directory of measurements. The results director is named (imageset)+_results_+date+time. This is lengthy and ugly but helpful for this sort of project because finding the best settings in ilastik and CellProfiler is an iterative process where you are likely to anlyze the same set of images multiple times, getting better results each time.
+Output: A results directory that contains a directory of overlays and a directory of measurements. The results directory is named (imageset)+\_results\_+date+time. This is lengthy and ugly but helpful for this sort of project because finding the best settings in ilastik and CellProfiler is an iterative process where you are likely to anlyze the same set of images multiple times, getting better results each time.
 
 
 ### Modifying the CellProfiler pipeline:
@@ -104,5 +97,5 @@ There is certainly room to make the cellprofiler pipeline more accurate. If you 
 
 ![IdentifyPrimaryObjects](./images/cellprofiler_idprimaryobj.png)
 
-One thing to watch out for is to avoid changing the output settings if at all possible. I was not satisfied with the output options within CellProfiler so in the runCellProfilerParallel.sh script I included a call to another bash script that reorganizes and renames the output files. Changes to the output files could break this script.
+One thing to watch out for is to avoid changing the output settings if at all possible. I was not satisfied with the output options within CellProfiler so in the runCellProfilerParallel.sh script I included a call to another bash script that reorganizes and renames the output files. Changes to the format of the output files could break this script.
  

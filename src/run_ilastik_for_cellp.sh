@@ -43,6 +43,6 @@ while (( "$#" )); do
 done
 eval set -- "$PARAMS"
 ##########################################################################
+$ILASTIK --headless --project=${PROJARG} ${FILEARG[@]} --output_format=tif --export_dtype=uint16 --output_axis_order="cyx" --pipeline_result_drange="(0.0,1.00)" --export_drange="(0,65535)" --output_filename_format=./prob_maps/{nickname}_results.tif ; then
 
-$ILASTIK --headless --project=${PROJARG} ${FILEARG[@]} --output_format=tif --export_dtype=uint16 --output_axis_order="cyx" --pipeline_result_drange="(0.0,1.00)" --export_drange="(0,65535)" --output_filename_format=./prob_maps/{nickname}_results.tif
 
