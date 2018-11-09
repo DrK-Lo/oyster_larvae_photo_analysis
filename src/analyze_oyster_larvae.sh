@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/sh
 ### make sure user provided a folder of images
 usage="\nUsage :\n\n$ analyze_oyster_larvae.sh [zip file/directory]\n"
 if [ $# -ne 1 ]; then
@@ -28,12 +28,14 @@ if [ $zipFile != $imageSet ]; then
 fi
 
 cd $imageSet
-mkdir orig_images
-mv *.png orig_images
-
+if [ ! -d "orig_images" ]; then
+	mkdir orig_images
+	mv *.png orig_images
+fi
 
 # analysis
-if run_ilastik_for_cellp.sh -p ../${ilastikPipeline} -f orig_images/* ; then
-	runCellProfilerParallel.sh $imageSet ../${cellpPipeline} 
+if python3 ../src/run_ilastik_for_cellp.py -p ../${ilastikPipeline} -f orig_images/* ; then
+	#runCellProfilerParallel.sh $imageSet ../${cellpPipeline} 
+	echo "completed successfully"
 fi
 

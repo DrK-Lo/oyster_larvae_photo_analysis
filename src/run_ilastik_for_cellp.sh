@@ -1,5 +1,7 @@
-#!/usr/bin/bash
-ILASTIK='/home/freeman.k/ilastik-1.3.0-Linux/run_ilastik.sh'
+#!/bin/sh
+
+command -v run_ilastik.sh >/dev/null 2>&1 || { echo >&2 "Ilastik is required. Aborting. If you have ilastik installed already, try adding run_ilastik.sh to your path"; exit 1; }
+ILASTIK='run_ilastik.sh'
 
 if [ $# -eq 0 ] ; then
 	echo

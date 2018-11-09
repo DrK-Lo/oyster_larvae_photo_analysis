@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/sh
 
 if [ $# -ne 1 ] ; then
 	echo "Error: you must supply the directory that contains the results as input" 1>&2

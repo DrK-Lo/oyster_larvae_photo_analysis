@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 #######################################################################################
 # Command to generate list of files with absolute path (imageList) :
