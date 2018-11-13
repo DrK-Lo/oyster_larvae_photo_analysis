@@ -1,4 +1,4 @@
-#!/
+#!/usr/bin/python2.7
 # coding: utf-8
 
 # In[ ]:
@@ -6,8 +6,8 @@
 
 import argparse
 import subprocess
-import shutil
 import sys
+import os
 
 ######################################################
 #
@@ -23,7 +23,9 @@ import sys
 #
 ######################################################
 
-shutil.which("run_ilastik.sh") is not None or sys.exit("Could not find run_ilastik.sh. Check that it is in your path and executable")
+## make sure run_ilastik can be found
+any(os.access(os.path.join(path, "run_ilastik.sh"), os.X_OK) for path in os.environ["PATH"].split(os.pathsep)) or \
+	sys.exit("Could not find run_ilastik.sh. Check that it is in your path and executable")
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--file', '-f', nargs = "+", required = True)
