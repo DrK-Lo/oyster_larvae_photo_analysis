@@ -34,9 +34,9 @@ if [ ! -d "orig_images" ]; then
 fi
 
 # analysis
-#if ../src/run_ilastik_for_cellp.py -p ../${ilastikPipeline} -f orig_images/* ; then
+if ../src/run_ilastik_for_cellp.py -p ../${ilastikPipeline} -f orig_images/* ; then
 	runCellProfilerParallel.sh $imageSet ../${cellpPipeline} 
-#else 
-#	echo "ilastik failed to run correctly, aborting"
-#fi
+else 
+	echo "ilastik failed to run correctly, aborting"
+fi
 
