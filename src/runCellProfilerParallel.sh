@@ -35,9 +35,11 @@ else
 	exit
 fi
 
+imageSet=${imageSet/\//} # remove "/" that is autopopulated if var was entered using tab completion (ex J006_B1/)
+
 ####################### Check that files exist ###################################################
 
-imageList=${imageSet}".txt"
+imageList="${imageSet}.txt"
 if [ ! -f $imageList ] ; then
 	echo "Could not find a list of images for set: $imageSet
 attempting to create image list from orig_images and prob_maps directories
@@ -52,7 +54,7 @@ attempting to create image list from orig_images and prob_maps directories
 	cat orig_images/image_list.txt > combined_list.txt
 	cat prob_maps/image_list.txt >>  combined_list.txt
 
-	awk -F "/" '{print $NF, $0}' combined_list.txt | sort -n | cut -f2- -d' ' > ${imageSet}".txt"
+	awk -F "/" '{print $NF, $0}' combined_list.txt | sort -n | cut -f2- -d' ' > $imageList
 fi
 
 if [ ! -f $pipeline ] ; then
