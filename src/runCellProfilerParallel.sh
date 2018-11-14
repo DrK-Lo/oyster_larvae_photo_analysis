@@ -22,7 +22,7 @@
 #
 #######################################################################################
 
-ncpu=$(grep -c ^processor "/proc/cpuinfo")                          # maximum number of cpus to use at one time
+ncpu=$(nproc --all)                          # maximum number of cpus to use at one time
 echo "Maximum cores to use: " $ncpu
 
 ############ parse arguments #############################
