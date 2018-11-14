@@ -22,6 +22,9 @@
 #
 #######################################################################################
 
+ncpu=$(grep -c ^processor "/proc/cpuinfo")                          # maximum number of cpus to use at one time
+echo "Maximum cores to use: " $ncpu
+
 ############ parse arguments #############################
 if [ $# -eq 2 ] ; then
 	imageSet=$1
@@ -66,7 +69,6 @@ fi
 nimages=$(wc -l < $imageList)
 nimages=$((nimages / 2))         # there are 2 images in each analysis: the prob map and the original image (for the final overlay)
 batchsize=1                      # number of images to analyze on each each core. Lower batch size = faster but consumes more cpus (and memory?)
-ncpu=50                          # maximum number of cpus to use at one time
 
 trap "killall cellprofiler" EXIT    # kill all cellprofiler instances if the parent script is killed
 
