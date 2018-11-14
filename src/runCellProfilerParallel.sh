@@ -113,6 +113,6 @@ done
 wait
 
 ####### reorganize the ouputs using another bash script
-fix_names.sh $resultsDir
+../src/fix_names.sh $resultsDir
 
-echo "Analysis took $(($SECONDS / 3600))hrs, $(((SECONDS / 60) % 60))min, $((SECONDS % 60))sec"
+echo "Cellprofiler took $(($SECONDS / 3600))hrs, $(((SECONDS / 60) % 60))min, $((SECONDS % 60))sec"

@@ -1,4 +1,5 @@
 #!/bin/sh
+SECONDS=0
 ### make sure user provided a folder of images
 usage="\nUsage :\n\n$ analyze_oyster_larvae.sh [zip file/directory]\n"
 if [ $# -ne 1 ]; then
@@ -11,6 +12,7 @@ imageSet="${zipFile%.zip}" || imageSet="$zipFile"
 
 ilastikPipeline="generate_prob_maps.ilp"
 cellpPipeline="analyze_prob_maps.cppipe"
+
 # check that the variables are good
 if [ ! -f $ilastikPipeline ]; then
 	echo "Could not find pipeline : ${ilastikPipeline}, make sure it is in the current directory. Edit the script to use a different pipeline"
@@ -35,8 +37,11 @@ fi
 
 # analysis
 if ../src/run_ilastik_for_cellp.py -p ../${ilastikPipeline} -f orig_images/* ; then
-	runCellProfilerParallel.sh $imageSet ../${cellpPipeline} 
+	../src/runCellProfilerParallel.sh $imageSet ../${cellpPipeline} 
 else 
 	echo "ilastik failed to run correctly, aborting"
 fi
+
+echo
+echo "Analysis took $(($SECONDS / 3600))hrs, $(((SECONDS / 60) % 60))min, $((SECONDS % 60))sec"
 
