@@ -29,7 +29,7 @@ I included the folder for J006_B1 in the repository so you can see what the fina
 
 The first thing you should do is add the src directory to your path:
 
-`$ PATH=$PATH:~/oyster_measurement/src/`
+`$ PATH=$PATH:~/oyster_larvae_photo_analysis/src/`
 
 You should add this line your bashrc file so that you don't have to do this everytime you log in. 
 
@@ -69,7 +69,7 @@ Contrary to the advice in the tutorial to label one pixel at a time, I got the b
 
 ### Generate the full set of probability maps
 
-Once you have a classifier trained to your liking, you can transfer the project file to comp5 and run it on the entire image set using the included script "run_ilastik_for_cellprof.sh". It takes two named arguments -p/--project and -f/--file
+Once you have a classifier trained to your liking, you can transfer the project file to comp5 and run it on the entire image set using the included script "run_ilastik_for_cellprof.py". It takes two named arguments -p/--project and -f/--file
 
 project: the ilastik project file
 
@@ -77,7 +77,7 @@ file   : the image to be analyzed. It accepts globs
 
 example execution:
 
-`$ run_ilastik_for_cellp.sh -p ../generate_prob_maps.ilp -f orig_images/*`
+`$ run_ilastik_for_cellp.py -p ../generate_prob_maps.ilp -f orig_images/*`
 
 This will run my included ilastik classifier on every image in the orig_images directory. This is the longest part of the analysis, it takes about 40s per image.
 
@@ -97,7 +97,7 @@ You can now run Cellprofiler using runCellProfilerParallel.sh. It takes two unna
 
 The image set name is used to find or create the image list file and to name the file.
 
-There are also a couple variables you can modify in the script directly: ncpus (the maximum cpus you want the script to use) and batchsize (number of images to run on each cpu at once). The default batchsize is 1, which will run every image simulataneously, each on its own core. This is ideal unless you have more images than cores available, in which case it helps to set the batchsize to number of images / ncores. 
+There are also a couple variables you can modify in the script directly: ncpu (the maximum cpus you want the script to use, default = total number of cpus available) and batchsize (number of images to run on each cpu at once). The default batchsize is 1, which will run every image simulataneously, each on its own core. This is ideal unless you have more images than cores available, in which case it helps to set the batchsize to number of images / ncores. 
 
 Example Execution:
 
