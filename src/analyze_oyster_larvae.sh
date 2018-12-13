@@ -37,7 +37,7 @@ fi
 
 # analysis
 if ../src/run_ilastik_for_cellp.py -p ../${ilastikPipeline} -f orig_images/* ; then
-	../src/runCellProfilerParallel.sh $imageSet ../${cellpPipeline} 
+	../src/runCellProfilerParallel.sh $imageSet ../${cellpPipeline} ilastik 
 else 
 	echo "ilastik failed to run correctly, aborting"
 fi
