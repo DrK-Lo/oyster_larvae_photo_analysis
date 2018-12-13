@@ -72,11 +72,13 @@ Now you have to construct the image list yourself. There is a command to do this
 
 Now, move your pipeline to the images directory and start the analysis with the following command:
 
-`mv ../pipeline.cppipe .`
+`$ mv ../pipeline.cppipe .`
 
 `$ ../src/runCellProfilerParallel.sh image_list pipeline.cppipe noilastik`
 
 You will get an output directory named with with the image set + the date and time. Within this directory will be one sub directory with the results for each image and then a file called 'allmeasurements.csv' which contains all the measurements concatenated into one csv.
+
+One thing to note to make sure the generation of 'allmeasurements.csv' is successful -- the name of the objects you measured in your cellprofiler pipeline must match the objName variable at the top of runCellProfilerParallel.sh. If everything else is successful but you forgot to change the variable and didn't get the final csv there is no need to re-run the whole analysis though -- just run src/concat_measurements.R and give it the image_list.txt and the correct name of your objects to generate the csv in a few seconds from the rest of the output.  
 
 ## Ilastik
 
