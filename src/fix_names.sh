@@ -1,26 +1,28 @@
 #!/bin/sh
+###########################################################################################
+# script to rename the cellprofiler output to descriptive names based on the list of images
+#------------------------------------------------------------------------------------------ 
+# Takes the parent directory (where the folders of cellprofiler results are stored) and
+# the image list as input. Reads the (sorted) image list and the results of ls (sorted)
+# and goes down the list, renaming the first directory with the first name on the list,
+# the second directory with the second name on the list, and so on
+#
+############################################################################################
 
-if [ $# -ne 1 ] ; then
-	echo "Error: you must supply the directory that contains the results as input" 1>&2
+if [ $# -ne 2 ] ; then
+	echo "You must supply 2 variables: the directory that contains the results (1) and the list of image names (2)" 1>&2
 	exit 1
 fi
 
 parentDir=$1
+
+# read lines of var 2 (image list) into array
+IFS=$'\n' read -d '' -r -a lines < $2
+
 cd $parentDir
 
-for dir in *to*; do  
-	cd $dir
-	filename=(*.png)
-	filename="${filename%overlay.png}"
-	for f in *.csv; do
-		mv $f "${filename}_$f";
-	done
-	cd .. 
+i=0
+for resultsDir in `ls | sort -V`; do
+	mv $resultsDir $( basename "${lines[${i}]}")
+	((i++))
 done
-
-mkdir -p overlays
-mkdir -p measurements
-
-mv */*.png overlays
-mv */*filtered_shells.csv measurements
-rm -rf [0-9]*to*[0-9]
