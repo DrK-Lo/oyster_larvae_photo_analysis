@@ -3,6 +3,7 @@
 ---
 [Quick Start](#quick-start)
 
+[Run without ilastik](#run-without-ilastik)
 
 [Ilastik](#ilastik)
 
@@ -55,6 +56,27 @@ You're done! Inspect the overlays and see if everything looks good. Assuming you
 
 You can edit the Ilastik and CellProfiler pipelines or create your own by following the instructions below. If you edit the existing pipelines and put save them in the same directory, you can run the analysis without any changes. If you create new pipelines with different names, just edit src/ananlyze_oyster_larvae.sh to change the variables ilastikPipeline and cellpPipeline to whatever your new pipeline is called.
 
+## Run without Ilastik
+
+These scripts can also be used to just run cellprofiler without ilastik. This is a lot faster, but you have to do a little more setup and cannot use 'analyze_oyster_larvae.sh'.
+
+First, download an image set as above. 
+
+Next, change to the directory where the images are downloaded:
+
+`$ cd images`
+
+Now you have to construct the image list yourself. There is a command to do this in a comment at the top of runCellProfilerParallel.sh. Use `head runCellProfilerParallel.sh` to see it, or copy it from below:
+
+`$ ls -d -1 $PWD/** | sort -V > image_list.txt`
+
+Now, move your pipeline to the images directory and start the analysis with the following command:
+
+`mv ../pipeline.cppipe .`
+`$ ../src/runCellProfilerParallel.sh image_list pipeline.cppipe noilastik`
+
+You will get an output directory named with with the image set + the date and time. Within this directory will be one sub directory with the results for each image and then a file called 'allmeasurements.csv' which contains all the measurements concatenated into one csv.
+
 ## Ilastik
 
 ### Training the classifier
@@ -93,7 +115,9 @@ If you want a different image list than the one created automatically, the forma
 
 ### Running cellprofiler
 
-You can now run Cellprofiler using runCellProfilerParallel.sh. It takes two unnamed argumets: 1) imageset name 2) cellprofiler pipeline
+You can now run Cellprofiler using runCellProfilerParallel.sh. It takes 3 unnamed argumets: 1) imageset name 2) cellprofiler pipeline 3) ilastik
+
+The final argument is essentially a flag. Use 'ilastik' if you have probability maps from ilastik calculated, use 'noilastik' if you just have images that you want cellprofiler to analyze directly.
 
 The image set name is used to find or create the image list file and to name the file.
 
