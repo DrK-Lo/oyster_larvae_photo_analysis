@@ -21,19 +21,17 @@
 #/home/freeman.k/oyster_measurement/ilastik/J004_B1/prob_maps/J004_B1_-0002_results.tif
 #
 #######################################################################################
-
-ncpu=$(nproc --all)                          # maximum number of cpus to use at one time
-echo "Maximum cores to use: " $ncpu
-
+objNames="eggs"
 ############ parse arguments #############################
-if [ $# -eq 2 ] ; then
+if [ $# -eq 3 ] ; then
 	imageSet=$1
 	pipeline=$2
+	ilastik=$3
 else
 	echo
-	echo "This script takes two arguments in order -- 1) name of image set 2) cellprofiler pipeline 
+	echo "This script takes 3 arguments in order -- 1) name of image set (corresponds to image list) 2) cellprofiler pipeline 3) ilastik or noilastik
 	
-	'runCellProfilerParallel.sh imgset pipeline.cppipe'"
+	'runCellProfilerParallel.sh outlines pipeline.cppipe noilastik'"
 	echo
 	exit
 fi
@@ -67,8 +65,11 @@ fi
 
 # we know files exist, now set the other variables
 nimages=$(wc -l < $imageList)
-nimages=$((nimages / 2))         # there are 2 images in each analysis: the prob map and the original image (for the final overlay)
+if [ "$ilastik" = "ilastik" ] ; then 
+	nimages=$((nimages / 2))         # there are 2 images in each analysis: the prob map and the original image (for the final overlay)
+fi
 batchsize=1                      # number of images to analyze on each each core. Lower batch size = faster but consumes more cpus (and memory?)
+ncpu=50                          # maximum number of cpus to use at one time
 
 trap "killall cellprofiler" EXIT    # kill all cellprofiler instances if the parent script is killed
 
@@ -93,7 +94,9 @@ do
 	#### give the command to cellprofiler
 	echo "Starting analysis of image(s): "${first} 'to' ${last}
 	
-	cellprofiler -p $pipeline -c -f $first -l $last --file-list $imageList -o ./${resultsDir}/${first}to${last} >>cellprof.log 2>&1 &
+	head -n $last $imageList | tail -n $batchsize > batch${first}.txt	
+	cat batch${first}.txt
+	cellprofiler -p $pipeline -c --file-list batch${first}.txt -o ./${resultsDir}/${first}to${last} >>cellprof.log 2>&1 &
 	lastProc=$(($last))
 	
 	#### check the number of cores currently being used for cellprofiler, pause if we're at the limit #######
@@ -114,7 +117,12 @@ do
 done
 wait
 
+rm batch*.txt  # clean up sub-file lists
+
 ####### reorganize the ouputs using another bash script
-../src/fix_names.sh $resultsDir
+../src/fix_names.sh $resultsDir $imageList
+# combine all results into one table
+cd $resultsDir
+Rscript ../../src/concat_measurements.R ../$imageList $objNames
 
 echo "Cellprofiler took $(($SECONDS / 3600))hrs, $(((SECONDS / 60) % 60))min, $((SECONDS % 60))sec"
