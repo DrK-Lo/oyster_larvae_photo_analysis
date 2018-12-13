@@ -73,6 +73,7 @@ Now you have to construct the image list yourself. There is a command to do this
 Now, move your pipeline to the images directory and start the analysis with the following command:
 
 `mv ../pipeline.cppipe .`
+
 `$ ../src/runCellProfilerParallel.sh image_list pipeline.cppipe noilastik`
 
 You will get an output directory named with with the image set + the date and time. Within this directory will be one sub directory with the results for each image and then a file called 'allmeasurements.csv' which contains all the measurements concatenated into one csv.
